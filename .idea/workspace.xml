@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ea585af4-995d-4da0-9345-d5c1f4faf353" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VcW8pomR3o6B8R2erTP9cOWShv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Application.Example5LambdaThred">
+    <configuration name="Example2Impl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Example2Impl" />
+      <module name="SreedurgaJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Example3Impl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Example3Impl" />
+      <module name="SreedurgaJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Example4Impl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Example4Impl" />
+      <module name="SreedurgaJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Example5LambdaThred" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Example5LambdaThred" />
+      <module name="SreedurgaJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Example5NoLambdaThred" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Example5NoLambdaThred" />
+      <module name="SreedurgaJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Example5LambdaThred" />
+        <item itemvalue="Application.Example5NoLambdaThred" />
+        <item itemvalue="Application.Example4Impl" />
+        <item itemvalue="Application.Example3Impl" />
+        <item itemvalue="Application.Example2Impl" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ea585af4-995d-4da0-9345-d5c1f4faf353" name="Default Changelist" comment="" />
+      <created>1577552706571</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577552706571</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="896" y="442" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1577638510217">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="896" y="442" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1577638510217" />
+    <state width="1240" height="191" key="GridCell.Tab.0.bottom" timestamp="1577643468629">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1240" height="191" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1577643468629" />
+    <state width="1240" height="191" key="GridCell.Tab.0.center" timestamp="1577643468628">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1240" height="191" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1577643468628" />
+    <state width="1240" height="191" key="GridCell.Tab.0.left" timestamp="1577643468628">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1240" height="191" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1577643468628" />
+    <state width="1240" height="191" key="GridCell.Tab.0.right" timestamp="1577643468628">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1240" height="191" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1577643468628" />
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1577637077645">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1577637077645" />
+  </component>
+</project>
