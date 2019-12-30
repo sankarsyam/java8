@@ -33,4 +33,17 @@
      Collections.sort(list) - Default sort(ascending/albhabetical order) will be applied
      Collections.sort(list,Comparator) - Customised Sorting
      
-     ```   
+     ```
+     TreeSet - Sorted set
+     
+     ```
+     TreesSet<Integer> t = new TreeSet<Integer>(); // Default sorting
+     TreesSet<Integer> t = new TreeSet<Integer>(Comparator c) // Customised sorting;
+     ```
+     
+     TreeMap - Sorting will be based on the Key
+     
+     ```
+     TreeMap<Interger,String> tm = new TreeMap<Integer,String>(); //Default Sorting
+     TreeMap<Interger,String> tm = new TreeMap<Integer,String>(); //Customised Sorting
+     ```
