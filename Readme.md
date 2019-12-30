@@ -1,6 +1,7 @@
 ### 1. Lambda Expression
-        - Interface implementation is not required
-### 2. @Functional Interface
+         Interface implementation is not required
+### 2. Functional Interface
+``@FunctionalInterface``
 1. It should contain exactly on abstract method(SAM - Single abstract method)
 2. It can contain any number of default methods and static methods.
 3. It acts as a type of lambda expression <br/>
@@ -30,6 +31,6 @@
      Sorting
      ```
      Collections.sort(list) - Default sort(ascending/albhabetical order) will be applied
-     Collections.sort(list,Comparator) -  
+     Collections.sort(list,Comparator) - Customised Sorting
      
      ```   
