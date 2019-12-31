@@ -47,3 +47,15 @@
      TreeMap<Interger,String> tm = new TreeMap<Integer,String>(); //Default Sorting
      TreeMap<Interger,String> tm = new TreeMap<Integer,String>(); //Customised Sorting
      ```
+     Anonymous inner class - Inner class without name
+     ```
+     Example 
+     Runnable r= new Runnable(){
+        public void run(){
+        -------
+     }
+     }
+     ```
+     
+     
+     
