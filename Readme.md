@@ -56,6 +56,6 @@
      }
      }
      ```
-     
+    Note : Anonymous inner class  class can be replaced by a lambda expression if the inner class extends an interface which contain only one method(ie functional interface).
      
      
