@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea585af4-995d-4da0-9345-d5c1f4faf353" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/AnonymusInnerClassExample3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnonymusInnerClassExample3Lambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DefaultMethodSample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
     </list>
@@ -31,14 +34,31 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.AnonymusInnerClassLambda">
+  <component name="RunManager" selected="Application.DefaultMethodSample">
+    <configuration name="AnonymusInnerClassExample3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AnonymusInnerClassExample3" />
+      <module name="SreedurgaJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnonymusInnerClassExample3Lambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AnonymusInnerClassExample3Lambda" />
+      <module name="SreedurgaJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AnonymusInnerClassLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AnonymusInnerClassLambda" />
       <module name="SreedurgaJava" />
@@ -53,22 +73,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortForCustomClassLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortForCustomClassLambda" />
-      <module name="SreedurgaJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TreeMapLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TreeMapLambda" />
-      <module name="SreedurgaJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TreeSetLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TreeSetLambda" />
+    <configuration name="DefaultMethodSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DefaultMethodSample" />
       <module name="SreedurgaJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -76,11 +82,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DefaultMethodSample" />
+        <item itemvalue="Application.AnonymusInnerClassExample3Lambda" />
+        <item itemvalue="Application.AnonymusInnerClassExample3" />
         <item itemvalue="Application.AnonymusInnerClassLambda" />
         <item itemvalue="Application.AnonymusInnerClassNoLambda" />
-        <item itemvalue="Application.SortForCustomClassLambda" />
-        <item itemvalue="Application.TreeMapLambda" />
-        <item itemvalue="Application.TreeSetLambda" />
       </list>
     </recent_temporary>
   </component>
@@ -114,25 +120,25 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="896" y="442" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1577696281676" />
-    <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1577813677272">
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1578031727143">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1577813677272" />
-    <state width="1807" height="278" key="GridCell.Tab.0.center" timestamp="1577813677272">
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1578031727143" />
+    <state width="1807" height="278" key="GridCell.Tab.0.center" timestamp="1578031727142">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1577813677272" />
-    <state width="1807" height="278" key="GridCell.Tab.0.left" timestamp="1577813677271">
+    <state width="1807" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1578031727142" />
+    <state width="1807" height="278" key="GridCell.Tab.0.left" timestamp="1578031727142">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1577813677271" />
-    <state width="1807" height="278" key="GridCell.Tab.0.right" timestamp="1577813677272">
+    <state width="1807" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1578031727142" />
+    <state width="1807" height="278" key="GridCell.Tab.0.right" timestamp="1578031727143">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1577813677272" />
-    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1577812241869">
+    <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1578031727143" />
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1578671538726">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1577812241869" />
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1578671538726" />
   </component>
 </project>

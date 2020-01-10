@@ -56,6 +56,44 @@
      }
      }
      ```
-    Note : Anonymous inner class  class can be replaced by a lambda expression if the inner class extends an interface which contain only one method(ie functional interface).
+    Note : 
+    1.Anonymous inner class  class can be replaced by a lambda expression if the inner class extends an interface which contain only one method(ie functional interface).
+    2. Instance variable can't be decalre inside lambda expression
+    3. Lambda expression is not to replace annonymous inner class.    
      
-     
+   #### Default methods inside interface
+   Till java 1.7 all methods interface can have only `abstract` methods and `public static final` variables.        
+   Java 1.8 allows concrete methods inside interface.  
+    Concrete methods declared inside interface is known as `default methods`.  
+    
+    Example
+   
+    Interface intf {
+      default void m1(){
+        SYSO('Hello');
+      }
+    }
+    
+ Note: 
+ * Default  methods are available in implementation class by default.
+ * Default methods can be over ride in implementation class 
+ * If a class implement 2 interface with same default method compile time issue will occur.
+  To resolve this issue override method in the implementation class and specify the interface in it. As below
+  ````
+  class Sample implements Left,Righyt{
+   Public void m1(){
+    Left.super.m1();
+   }
+    p.sv.m(String args[] ){
+      Sample s = new Sample();
+      s.m1();
+    }
+ }
+ 
+````
+   #### Static methods inside interface
+ * Java 1.8 onwards static methods can de define inside interface - To define general utility methods.
+  * Interface's static method can call **only** with interface name. Static method won't be available in implementation class by default.
+     `Inerf.m1();` .
+  * Overriding is not applicable for interface static method.
+  * main() method can be declare inside interface. _So interface compile and run._
