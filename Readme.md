@@ -1,5 +1,60 @@
 ### 1. Lambda Expression
-         Interface implementation is not required
+   * Interface implementation is not required
+   * Lambda expression is an anonymous funftion(no name)
+   * Lambda expression not have `name` , `modifier` and `return` type
+  
+  Concrete method to lambda expression
+  
+  Example 1: 
+  
+        public void m1(){
+         System.out.println("Hello");
+        }
+   Remove name , modifier and return type  
+        ~~public~~ ~~void~~ ~~m1~~(){  
+            System.out.println("Hello");  
+        }
+     
+        () -> { System.out.println("Hello"); }
+        OR 
+        () -> System.out.println("Hello"); 
+   Example 2: 
+     
+           public void add (int a, int b){
+             System.out.println(a+b);
+           }
+   Remove name , modifier and return  
+    ~~public~~ ~~void~~ ~~add~~ (int a, int b){  
+        System.out.println(a+b);  
+    }
+        
+           (int a, int b) -> { System.out.println(a+b); } 
+   **Type Inference** : Type can be ignored for method arguments if the compiler can guss it automatically.   
+        ``` 
+                (a,b)  -> System.out.println(a+b); 
+        ```  
+   Example 3: 
+         
+       public int  getLength (String s){
+                 return s.length();
+        }
+   Remove name , modifier and return  
+        ~~public~~ ~~int~~  ~~getLength~~ (String s){  
+                         return s.length();  
+                }
+            
+              (String s) -> {return s.length(); }
+              OR
+              (String s) -> return s.length();
+              OR
+              (String s) -> s.length();
+              OR
+              s -> s.length();
+   Note :  
+   * Curly braces are optional if the body contains only one statement
+   * Type is not mandatory for method arguments if the compiler can guss it automatically(Type inference)
+   * Parenthesis are optional if only one argument is present.
+    
 ### 2. Functional Interface
 ``@FunctionalInterface``
 1. It should contain exactly on abstract method(SAM - Single abstract method)
@@ -97,3 +152,6 @@
      `Inerf.m1();` .
   * Overriding is not applicable for interface static method.
   * main() method can be declare inside interface. _So interface compile and run._
+  
+  #### Predefined functional interfaces - Predicates
+  
