@@ -1,7 +1,7 @@
 ### 1. Lambda Expression
    * Interface implementation is not required
    * Lambda expression is an anonymous funftion(no name)
-   * Lambda expression not have `name` , `modifier` and `return` type
+   * Lambda expression does not have `name` , `modifier` and `return` type
   
   Concrete method to lambda expression
   
@@ -56,13 +56,14 @@
    * Parenthesis are optional if only one argument is present.
     
 ### 2. Functional Interface
-``@FunctionalInterface``
+
 1. It should contain exactly on abstract method(SAM - Single abstract method)
 2. It can contain any number of default methods and static methods.
 3. It acts as a type of lambda expression <br/>
 ``` Eg: Interface i = () -> System.out.println('Hello');```
 4. It can be used to invoke lambda expression.
-
+5. Examples Comparable, Runnable, Callable, ActionListener etc
+6. An interface can be marked as functional interface using ``@FunctionalInterface``
 ### Lambda expressions with Collection
  #### Collection 
     1. List 
@@ -153,5 +154,39 @@
   * Overriding is not applicable for interface static method.
   * main() method can be declare inside interface. _So interface compile and run._
   
-  #### Predefined functional interfaces - Predicates
-  
+  #### Predefined functional interfaces 
+   
+   Examples: Predicates , Function, Consumer, Supplier
+   #### Predefined functional interfaces 
+      
+   Examples: Predicates, Function, Consumer, Supplier etc
+      
+       java.util.function  
+   **1. Predicates**  
+   *  Predicate is a functional interface which execute a condition and returns a **boolean** value
+   * Package java.util.function 
+   * Contains only one abstract method `test`  
+   
+                    Interface Predicate<T> {
+                       boolean test(T t);
+                     }
+   Example
+   ````
+   (Integer i)  -> {
+        if(i > 10) 
+          return true;
+        else 
+          return false;
+   };
+
+   OR 
+
+   i -> (i> 10) ? true : false;
+  ````
+   Usage
+   ````
+   Predicate<Integer> p = i -> i>10;
+   
+   System.out.println(p.test(100)); // true
+   System.out.println(p.test(2)); // false
+  ````
