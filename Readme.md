@@ -204,3 +204,14 @@ p.test(new ArrayList());
    Predicate<String> p = Predicate.isEqual("Java");
    p.test("Java");
  ````
+  **2. Function** 
+  
+     Interface Function<T,R> { // T - input parameter , R - return type
+      R apply(T t);
+      }
+      
+      Example
+      Function<String,Integer> f = s-> s.length();
+   * Can accept 2 arguments input and return type.
+   * `apply` is the method
+   * Can return any type.
