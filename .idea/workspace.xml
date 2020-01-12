@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea585af4-995d-4da0-9345-d5c1f4faf353" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/SreedurgaJava/PredicateExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PredicateExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PredicateEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PredicateEngineerPub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PredicateNameSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PredicateRemoveNullEmpty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PredicateSamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PredicateUserAuth.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
     </list>
@@ -44,37 +47,37 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PredicateExample">
-    <configuration name="AnonymusInnerClassExample3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AnonymusInnerClassExample3" />
+  <component name="RunManager" selected="Application.PredicateEmployee">
+    <configuration name="PredicateEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PredicateEmployee" />
       <module name="SreedurgaJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnonymusInnerClassExample3Lambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AnonymusInnerClassExample3Lambda" />
+    <configuration name="PredicateEngineerPub" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PredicateEngineerPub" />
       <module name="SreedurgaJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnonymusInnerClassLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AnonymusInnerClassLambda" />
+    <configuration name="PredicateNameSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PredicateNameSample" />
       <module name="SreedurgaJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DefaultMethodSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DefaultMethodSample" />
+    <configuration name="PredicateRemoveNullEmpty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PredicateRemoveNullEmpty" />
       <module name="SreedurgaJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PredicateExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PredicateExample" />
+    <configuration name="PredicateUserAuth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PredicateUserAuth" />
       <module name="SreedurgaJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,11 +85,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PredicateExample" />
-        <item itemvalue="Application.DefaultMethodSample" />
-        <item itemvalue="Application.AnonymusInnerClassExample3Lambda" />
-        <item itemvalue="Application.AnonymusInnerClassExample3" />
-        <item itemvalue="Application.AnonymusInnerClassLambda" />
+        <item itemvalue="Application.PredicateEmployee" />
+        <item itemvalue="Application.PredicateEngineerPub" />
+        <item itemvalue="Application.PredicateUserAuth" />
+        <item itemvalue="Application.PredicateRemoveNullEmpty" />
+        <item itemvalue="Application.PredicateNameSample" />
       </list>
     </recent_temporary>
   </component>
@@ -120,25 +123,33 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="896" y="442" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1577696281676" />
-    <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1578678280185">
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1578848870546">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1578678280185" />
-    <state width="1807" height="278" key="GridCell.Tab.0.center" timestamp="1578678280185">
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1578848870546" />
+    <state width="1807" height="278" key="GridCell.Tab.0.center" timestamp="1578848870546">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1578678280185" />
-    <state width="1807" height="278" key="GridCell.Tab.0.left" timestamp="1578678280184">
+    <state width="1807" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1578848870546" />
+    <state width="1807" height="278" key="GridCell.Tab.0.left" timestamp="1578848870545">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1578678280184" />
-    <state width="1807" height="278" key="GridCell.Tab.0.right" timestamp="1578678280185">
+    <state width="1807" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1578848870545" />
+    <state width="1807" height="278" key="GridCell.Tab.0.right" timestamp="1578848870546">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1578678280185" />
-    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1578708476962">
+    <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1578848870546" />
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1578847614493">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1578708476962" />
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1578847614493" />
+    <state x="524" y="27" width="1396" height="1011" key="dock-window-1" timestamp="1578847988017">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="524" y="27" width="1396" height="1011" key="dock-window-1/67.27.1853.1053@67.27.1853.1053" timestamp="1578847988017" />
+    <state x="656" y="257" key="search.everywhere.popup" timestamp="1578826939713">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="656" y="257" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1578826939713" />
   </component>
 </project>

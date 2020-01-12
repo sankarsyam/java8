@@ -190,3 +190,17 @@
    System.out.println(p.test(100)); // true
    System.out.println(p.test(2)); // false
   ````
+
+Predicate<Collection> p = c -> c.isEmpty();  
+p.test(new ArrayList());
+---
+ **Predicate Joining**
+ * p1.add(p2) - Joining the condition of two predicates
+ * p1.or(p2) - Check of at least one predicate match
+ ---
+  * p1.negate() - Check the negative condition of p1.  
+  * isEqual
+  ````
+   Predicate<String> p = Predicate.isEqual("Java");
+   p.test("Java");
+ ````
