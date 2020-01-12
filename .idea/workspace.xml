@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea585af4-995d-4da0-9345-d5c1f4faf353" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/PredicateEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PredicateEngineerPub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PredicateNameSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PredicateRemoveNullEmpty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PredicateSamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PredicateUserAuth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
