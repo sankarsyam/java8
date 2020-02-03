@@ -2,11 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea585af4-995d-4da0-9345-d5c1f4faf353" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/SreedurgaJava/ConsumerChaining.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SreedurgaJava/ConsumerPredicateFun.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SreedurgaJava/ConsumerSample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SreedurgaJava/EmpSalaryPredicAndFun.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SreedurgaJava/EmployeeAndSalary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SreedurgaJava/FunctionChaining.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SreedurgaJava/Moovie.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SreedurgaJava/NewMoovie.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SreedurgaJava/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SreedurgaJava/SupplierSamples.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ConsumerChaining.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ConsumerPredicateFun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ConsumerSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmpSalaryPredicAndFun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunctionChaining.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SupplierSamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SreedurgaJava/PredicateEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SreedurgaJava/PredicateEmployee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FunctionSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FunctionSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SreedurgaJava/META-INF/SreedurgaJava.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SreedurgaJava/META-INF/SreedurgaJava.kotlin_module" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,37 +60,49 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FunctionSample">
-    <configuration name="FunctionSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FunctionSample" />
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="ConsumerChaining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConsumerChaining" />
       <module name="SreedurgaJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PredicateEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PredicateEmployee" />
+    <configuration name="ConsumerPredicateFun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConsumerPredicateFun" />
       <module name="SreedurgaJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PredicateEngineerPub" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PredicateEngineerPub" />
+    <configuration name="ConsumerSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConsumerSample" />
       <module name="SreedurgaJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PredicateRemoveNullEmpty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PredicateRemoveNullEmpty" />
+    <configuration name="FunctionChaining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FunctionChaining" />
       <module name="SreedurgaJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PredicateUserAuth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PredicateUserAuth" />
+    <configuration name="SupplierSamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SupplierSamples" />
       <module name="SreedurgaJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -81,25 +110,13 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FunctionSample" />
-        <item itemvalue="Application.PredicateEmployee" />
-        <item itemvalue="Application.PredicateEngineerPub" />
-        <item itemvalue="Application.PredicateUserAuth" />
-        <item itemvalue="Application.PredicateRemoveNullEmpty" />
+        <item itemvalue="Application.SupplierSamples" />
+        <item itemvalue="Application.ConsumerChaining" />
+        <item itemvalue="Application.ConsumerPredicateFun" />
+        <item itemvalue="Application.ConsumerSample" />
+        <item itemvalue="Application.FunctionChaining" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -113,6 +130,19 @@
       <updated>1577552706571</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="896" y="442" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1577696281676">

@@ -215,3 +215,23 @@ p.test(new ArrayList());
    * Can accept 2 arguments input and return type.
    * `apply` is the method
    * Can return any type.
+   
+**Function Chaining**
+   * fi.**addThen**(f2) - To join two function. f2 will be applied to the result of f1.
+   * f1.**compose**(f2) - f1 will be applied to the result of f2
+   * **identity** - Returns a function that always its input argument.
+   
+  **3. Consumer** 
+  * contains method **accept** 
+  * Consume one parameter and not return anything(void)
+  
+         Consumer<String> c = s-> System.out.println(s);
+         c.accept("Syam");
+  
+  **andThen** - For consumer chaining
+        c1.addThen(c2).addThen(c3)
+        
+  **4. Supplier** 
+   * contains only one method **get** and S**upplier<R>** return **R**.
+   * Supplier not take any input
+   
