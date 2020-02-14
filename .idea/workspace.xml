@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea585af4-995d-4da0-9345-d5c1f4faf353" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/FunctionSampleRemoveSpace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunctionSampleStudentGrade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SreedurgaJava/PredicateEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SreedurgaJava/PredicateEmployee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FunctionSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FunctionSample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,9 +42,23 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FunctionSample">
+  <component name="RunManager" selected="Application.FunctionSampleStudentGrade">
     <configuration name="FunctionSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FunctionSample" />
+      <module name="SreedurgaJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FunctionSampleRemoveSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FunctionSampleRemoveSpace" />
+      <module name="SreedurgaJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FunctionSampleStudentGrade" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FunctionSampleStudentGrade" />
       <module name="SreedurgaJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -65,27 +78,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PredicateRemoveNullEmpty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PredicateRemoveNullEmpty" />
-      <module name="SreedurgaJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PredicateUserAuth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PredicateUserAuth" />
-      <module name="SreedurgaJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FunctionSampleStudentGrade" />
+        <item itemvalue="Application.FunctionSampleRemoveSpace" />
         <item itemvalue="Application.FunctionSample" />
         <item itemvalue="Application.PredicateEmployee" />
         <item itemvalue="Application.PredicateEngineerPub" />
-        <item itemvalue="Application.PredicateUserAuth" />
-        <item itemvalue="Application.PredicateRemoveNullEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -119,26 +118,26 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="896" y="442" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1577696281676" />
-    <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1578851853202">
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1579369397784">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1578851853202" />
-    <state width="1807" height="278" key="GridCell.Tab.0.center" timestamp="1578851853202">
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1579369397784" />
+    <state width="1807" height="278" key="GridCell.Tab.0.center" timestamp="1579369397784">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1578851853202" />
-    <state width="1807" height="278" key="GridCell.Tab.0.left" timestamp="1578851853201">
+    <state width="1807" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1579369397784" />
+    <state width="1807" height="278" key="GridCell.Tab.0.left" timestamp="1579369397784">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1578851853201" />
-    <state width="1807" height="278" key="GridCell.Tab.0.right" timestamp="1578851853202">
+    <state width="1807" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1579369397784" />
+    <state width="1807" height="278" key="GridCell.Tab.0.right" timestamp="1579369397784">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1578851853202" />
-    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1578847614493">
+    <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1579369397784" />
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1579365119109">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1578847614493" />
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1579365119109" />
     <state x="524" y="27" width="1396" height="1011" key="dock-window-1" timestamp="1578847988017">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
