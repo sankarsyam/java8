@@ -56,7 +56,7 @@
    * Parenthesis are optional if only one argument is present.
     
 ### 2. Functional Interface
-
+ 
 1. It should contain exactly on abstract method(SAM - Single abstract method)
 2. It can contain any number of default methods and static methods.
 3. It acts as a type of lambda expression <br/>
@@ -246,4 +246,54 @@ p.test(new ArrayList());
    * Consumer that can accept two input values
    
    
+  
+  
+  #### Primitive type functional interfaces 
+  
+  ##### Autoboxing 
+  Automatic type conversion from primitive to wrapper object by compailer.
+  Integer i =10 , is invalid til 1.4. After autoboxing is introduced in java.
+  ##### Autounboxing
+  Integer I = new Integer(10);
+  
+  int x = I , compailer converts Integer object to primitive int.
+  ##### Generic - Type parameter
+  Parameter should be Object type
+  
+  ArrayList<int> al = new ArrayList<int> , is not allowed. 
+  
+  ##### Need of primitive type functional interface 
+ is need to perform autoboxing and auto unboxing if a primitive type is passed to a predicate and which affected performance.
+ Step 1: Generic can only accept Object so primitive need to convert to Object with Predicate. Step 2: Object need to convert to primitive to use it.
+ 
+ So primitive type functional interface should be used when input type and return type are primitive, to improve performance.
+ 
+ ##### 1. IntPredicate 
+    public boolean test(int i);
+  
+  Example IntPredicate p = i ->  i%2;
+  
+  ##### 2. LongPredicate - always take long value as argument
+  ##### 3. DoublePredicate 
+  
+  #### Primitive function
+  ##### 1.IntFunction - Takes only int  as input argument and return type is Integer.
+  
+     IntFunction <Integer> f = i -> i*i;
+     Input is in and return type is Integer.
    
+  Here only input type is primitive
+  
+  ##### 2.ToIntFunction - Input type can be anything but always return int.
+  applyAsInt is the method.
+  
+     ToIntFunction<String> f = s -> s.length();
+     syso(f.applyAsInt("Syam");
+  ##### 3. IntToDoubleFunction - input is int and return type is double. Method is applayAsDouble
+  
+      InToDoubleFunction f = i -> Math.sqrt(i);
+      f.applayAsDouble(3);
+      
+  
+  
+  
