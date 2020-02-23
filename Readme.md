@@ -234,4 +234,16 @@ p.test(new ArrayList());
   **4. Supplier** 
    * contains only one method **get** and S**upplier<R>** return **R**.
    * Supplier not take any input
+        
+        --
+  **BiPredicate** 
+   * Predicate that can accept two input values
+   
+  **BiFunction** 
+   * Function that can accept two input values
+   
+  **BiConsumer** 
+   * Consumer that can accept two input values
+   
+   
    

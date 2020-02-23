@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea585af4-995d-4da0-9345-d5c1f4faf353" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FunctionSampleRemoveSpace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FunctionSampleStudentGrade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BiConsumerBiFunctionSalaryIncrement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SreedurgaJava/ConsumerPredicateFun.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SreedurgaJava/ConsumerPredicateFun.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ConsumerPredicateFun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConsumerPredicateFun.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +44,26 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FunctionSampleStudentGrade">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.BiConsumerBiFunctionSalaryIncrement">
+    <configuration name="BiConsumerBiFunctionSalaryIncrement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BiConsumerBiFunctionSalaryIncrement" />
+      <module name="SreedurgaJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FunctionSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FunctionSample" />
       <module name="SreedurgaJava" />
@@ -71,34 +92,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PredicateEngineerPub" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PredicateEngineerPub" />
-      <module name="SreedurgaJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BiConsumerBiFunctionSalaryIncrement" />
         <item itemvalue="Application.FunctionSampleStudentGrade" />
         <item itemvalue="Application.FunctionSampleRemoveSpace" />
         <item itemvalue="Application.FunctionSample" />
         <item itemvalue="Application.PredicateEmployee" />
-        <item itemvalue="Application.PredicateEngineerPub" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
