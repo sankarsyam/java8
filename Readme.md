@@ -277,23 +277,64 @@ p.test(new ArrayList());
   ##### 3. DoublePredicate 
   
   #### Primitive function
-  ##### 1.IntFunction - Takes only int  as input argument and return type is Integer.
+  ##### 1.IntFunction<R> 
+  - Takes only int  as input argument and return type is Integer.
   
-     IntFunction <Integer> f = i -> i*i;
+        IntFunction <Integer> f = i -> i*i;
      Input is in and return type is Integer.
    
-  Here only input type is primitive
+     Here only input type is primitive
   
-  ##### 2.ToIntFunction - Input type can be anything but always return int.
+  ##### 2.ToIntFunction 
+   - Input type can be anything but always return int.
   applyAsInt is the method.
   
-     ToIntFunction<String> f = s -> s.length();
-     syso(f.applyAsInt("Syam");
-  ##### 3. IntToDoubleFunction - input is int and return type is double. Method is applayAsDouble
+         ToIntFunction<String> f = s -> s.length();
+         syso(f.applyAsInt("Syam");
+  ##### 3. IntToDoubleFunction 
+  - input is int and return type is double. 
+   - Method is applayAsDouble
   
-      InToDoubleFunction f = i -> Math.sqrt(i);
-      f.applayAsDouble(3);
-      
+         InToDoubleFunction f = i -> Math.sqrt(i);
+          f.applayAsDouble(3);
+  ##### 4. LongFunction<R>
+   apply  
+   Input type is always int
+   R is the return type
+  ##### 5. DoubleFunction<R>
+   apply  
+   Input type is always double
+  ##### 6.InToLongFunction
+   applyAsLong
+  ##### 7. IntToDoubleFunction
+  applyAsDouble
+  ##### 8.LongToIntFunction
+  applyAsInt
+  ##### 9.DoubleToIntFunction
+   applyAsInt
+  ##### 10.DoubleToLongFunction
+  applyAsLong
+  ##### 11.ToIntBiFunction<T,U>
+   applyAsInt(T t,U u) , where T and U are input arguments.
+  ##### 12.ToLongBiFunction<T,U>
+  ##### 13.ToDoubleBiFunction<T,U>
   
+  #### Primitive Versions for Consumer
+  1. IntConsumer , if input in int
+  2. LongConsumer ,if input in long
+  3. DoubleConsumer , if input in double
+  4 .ObjIntConsumer - which takes two arguments Object and int
+  
+    ObjIntConsumer<T> {
+      public void accept(T t, int i);
+    }
+    
+   5. ObjLongConsumer
+   6. ObjDoubleConsumer
+  #### Primitive Versions for Supplier
+  1. IntSupplier - getAsInt
+  2. LongSupplier - getAsLong
+  3. DoubleSupplier - getAsDouble
+  4. BooleanSupplier - getAsBoolean
   
   
