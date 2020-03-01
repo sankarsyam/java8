@@ -287,7 +287,7 @@ p.test(new ArrayList());
   
   ##### 2.ToIntFunction 
    - Input type can be anything but always return int.
-  applyAsInt is the method.
+  applyAsInt is the method. 
   
          ToIntFunction<String> f = s -> s.length();
          syso(f.applyAsInt("Syam");
@@ -337,4 +337,68 @@ p.test(new ArrayList());
   3. DoubleSupplier - getAsDouble
   4. BooleanSupplier - getAsBoolean
   
+  ### UnaryOperator and its Primitive Versions
   
+  **Function with same input and return type**.
+                
+                Interface UnaryOperator<T> {
+                  public T appl(T t);
+                }
+   
+  Example,
+           `
+            UnaryOperator<Integer> uo = i -> i*i; 
+            uo.apply(10);
+            `
+           
+  1.**IntUnaryOperator**  - applyAsInt
+  
+  2.**LongUnaryOperator** - applyAsLong
+  
+  3.**DoubleUnaryOperator** - applyAsDouble
+  
+  ### BinaryOperator
+  
+  **If two inputs and return type of a BiFunction are same , BinaryOperator is used.**
+  
+ ` 
+ Interface BinaryOperator<T> {
+    public T apply(T t1, T t2);
+   }`
+ 
+ ##### Primitives of BinaryOperator
+ 
+ 1. IntBinaryOperator - applyAsInt
+ 2. LongBinaryOperator - applyAsLong
+ 3. DoubleBinaryOperator - applyAsDouble
+ 
+ ### Double Colon :: Operator
+ ####1. Method Reference by :: operator
+ 
+ Below example m1() refers m2() . Also m2 is used as implementation for m1.
+ 
+  - Both methods arguments and types should be matched. 
+  - Different way of implementing interface other than lambda expression.
+  - method reference is an alternative for lambda expression.
+ 
+  ```
+    Interface Inf
+    {
+       public void m1();
+    }
+    class Test {
+
+     public static void m2()
+     {
+        System.out.println("Method Reference");
+     }
+
+      public static void main(String args[]){
+         Inf in = Test::m2;
+         in.m1();
+
+      }
+   }
+ ```
+ 
+#### 2. Constructor Reference by :: operator
