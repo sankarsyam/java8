@@ -380,7 +380,10 @@ p.test(new ArrayList());
   - Both methods arguments and types should be matched. 
   - Different way of implementing interface other than lambda expression.
   - method reference is an alternative for lambda expression.
- 
+  - Target method can be static or instance method.
+  - ClassNmae::MathodName - Static Method
+  - Object Reference::MethodName - Instance method
+  - Code reusablity
   ```
     Interface Inf
     {
@@ -400,5 +403,31 @@ p.test(new ArrayList());
       }
    }
  ```
- 
+ Another example with Thread
+ ```
+ Test t = new Test(); // t has method m1
+ Runnable r = t::m1;
+ Thread t1 = new Thread(r);
+ t1.start();
+ ```
 #### 2. Constructor Reference by :: operator
+
+Example,
+```
+Class Sample {
+  Sample(){
+  } 
+}
+
+Interface inerf {
+  publis Sample get();
+}
+
+public class Test{
+  PSVM(String[] args) {
+     Interf ir = Sample::new;
+     Sample s = ir.get();
+  }
+}
+
+```
