@@ -462,5 +462,22 @@ Example
          s.forEach(Syatem.out::println);
          
    ### Date and Time API
+   Joda Time API
+   
+    LocalDate  date = LocalDate.now();
+    LocalTime time = LocalTime.now();
+    
+    int dd= date.getDayOfMonth();
+    int mm=date.getMonthValue();
+    int yyyy = date.getYea();
+    
+    System.out.printf("%d-%d-%d", dd,mm,yyyy);
+     
+    int hour = time.getHour();
+    int minute = time.getMinute();
+    int seconds = time.getSecond();
+    int nanoseconds = time.getNano();
+    
+   LocalDateTime - For both date and time.
    
   
