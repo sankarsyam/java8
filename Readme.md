@@ -445,7 +445,7 @@ Example
  
  **toArray()** - To copy elements present in the stream to an Array
  
- Example , Integer[] array = l.stream().toArray(Integer[]:: new);
+ Example , Integer[] airray = l.stream().toArray(Integer[]:: new);
  
  **StreamOf**  - To deals with group of values or arrays.
  
