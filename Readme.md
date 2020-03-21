@@ -373,7 +373,7 @@ p.test(new ArrayList());
  3. DoubleBinaryOperator - applyAsDouble
  
  ### Double Colon :: Operator
- ####1. Method Reference by :: operator
+ ##### 1. Method Reference by :: operator
  
  Below example m1() refers m2() . Also m2 is used as implementation for m1.
  
@@ -401,4 +401,66 @@ p.test(new ArrayList());
    }
  ```
  
-#### 2. Constructor Reference by :: operator
+##### 2. Constructor Reference by :: operator
+
+ 
+  ### Streams
+
+java.io.streams - Deals with data for file operations
+
+java.util.Streams - Used to process objects from the collection.
+
+##### Streams::Filter and Map
+
+l is an `ArrayList<Integer> `, then to make a new list with even numbers from l
+
+`ArrayList<Integer> l1 = l.stream().filter(i-> i%2==0).collect(Collector.toList());`
+
+Map
+`List<Integer> l2 = l.stream().map(i -> i*2).collect(Collectors.toList());`
+
+##### Streams - Methods
+
+**collect** - To collect items from a stream
+
+**count** - To count items in a stream
+
+**sorted** 
+
+sorted()- Default sort
+
+sorted(Comparator) - Custom sort
+
+**Min and Max** -
+
+Can only apply to sorted stream
+
+**forEach** 
+
+Example
+
+ l.stram().forEach(s -> System.out.println(s));
+ 
+ l.stream().forEach(System.out::println);
+ 
+ **toArray()** - To copy elements present in the stream to an Array
+ 
+ Example , Integer[] array = l.stream().toArray(Integer[]:: new);
+ 
+ **StreamOf**  - To deals with group of values or arrays.
+ 
+ Example 
+ 
+ for group of values,
+  
+        Stream<Integer> s = Stream.of(9,99,999,9999,9999;
+             s.forEach(System.out::println);
+ For arrays
+ 
+         Double[] d = { 100,101,102,103};
+         Stream<Double> s = Stream.of(d);
+         s.forEach(Syatem.out::println);
+         
+   ### Date and Time API
+   
+  
