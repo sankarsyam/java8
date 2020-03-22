@@ -479,5 +479,39 @@ Example
     int nanoseconds = time.getNano();
     
    LocalDateTime - For both date and time.
+    
+    LocalDateTime dt= LocalDateTime.now();
+    System.out.println("");
+    System.out.println("Local Date Time :"+dt);
+    System.out.println(dt.getDayOfMonth());
+    System.out.println(dt.getHour());
    
+  To represent a particular date time
+  
+        LocalDateTime dt = LocalDateTime.of(yy,mm,dd,h,m,s,ns);
+   dt.plusMonths(6); // Date time after 6 months
+   dt.minusMonths(6); // Date time before 6 months
+   
+   Like wise days,weeks etc. Refer LocalDateTime API
+   
+   ######Period 
+   Duration between two Dates.
+   
+    LocalDate birthday = LocalDate.of(1986,3,14);
+    LocalDate today = LocalDate.now();
+    Period p = Period.between(birthday,today);
+    System.out.printf("Your age is %d years %d months and %d days",p.getYears(),p.getMonths(),p.getDays());
+
+ ###### Year
+ Year y = Year.of(year);
+ 
+    y.isLeap();
+ ###### ZoneId, ZoneDateTime
+ 
+         ZoneId zoneId = ZoneId.systemDefault();
+         System.out.println(zoneId);
+ 
+         ZoneId la = ZoneId.of("America/Los_Angeles");
+         ZonedDateTime zdt = ZonedDateTime.now(la);
+         System.out.println(zdt);  
   
